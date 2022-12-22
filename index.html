@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+   <link rel="stylesheet" href="bootstrap-5.2.0-dist/css/bootstrap.min.css">
+   <link rel="stylesheet" href="bootstrap-5.2.0-dist/js/bootstrap.bundle.min.js">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="headline">
+    <h2 class="text-muted ms-lg-5 auto mt-5">Bookmarker</h2>
+ </div>
+<hr class="w-75 mt-5 mx-auto">
+<div class="bg-light w-75 m-auto mt-5 py-5 text-center ">
+<h2 class="text-center">Bookmark your favourite sites</h2>
+<label for="siteNameInput" class="fw-bold text-center m-auto mt-3">Site Name:</label>
+<input type="text" id="siteNameInput"  class="form-control w-75 mx-auto mt-3">
+<label for="siteNameInput" class="fw-bold text-center m-auto mt-3">Site URl:</label>
+<input type="text" id="siteUrlInput"  class="form-control w-75 mx-auto mt-3">
+<button onclick="submit()" class="btn btn-primary mt-5">Submit</button>
+</div>
+<hr class="w-75 mt-5 mx-auto ">
+<div class="w-75 mx-auto">
+    <p class="text-muted m-auto">@ 2019 Bookmarker lnc.</p>
+</div>
+<div class="bg-light  mx-auto w-75 p-5">
+<table id="displayTable">
+
+</table>
+</div>
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
